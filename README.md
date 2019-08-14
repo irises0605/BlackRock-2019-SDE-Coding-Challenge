@@ -39,21 +39,24 @@ An asset’s market value percentage can be calculated by dividing the market va
 
 You will receive a string in the following format Portfolio:Benchmark where Portfolio & Benchmark each are in the same format.
 
-Here is the format: Name,AssetType,Shares,Price,AccruedInterest where each asset within Portfolio or Benchmark is separated by '|' symbol.
+* input format: Name,AssetType,Shares,Price,AccruedInterest, where each asset within Portfolio or Benchmark is separated by '|' symbol.
 
-The output for the transactions is TransactionType,Name,Shares. 
+* output format: TransactionType,Name,Shares. 
+
+For further clarification see the demonstration below. 
 
 ### Assumptions
 
-Shares & Price are positive decimals
+* Shares & Price are positive decimals.
 
-There will always be at least 1 asset present in the Portfolio and Benchmark
+* There will always be at least 1 asset present in the Portfolio and Benchmark.
 
-A particular asset will only be a stock or a bond, but not both
+* A particular asset will only be a stock or a bond, but not both.
 
-The final trades should be rounded to the nearest decimals
+* The final trades should be rounded to the nearest decimals.
 
-The trades should be sorted in ascending order based on the names of the assets
+* The trades should be sorted in ascending order based on the names of the assets.
+
 
 ## Getting Started
 
@@ -61,7 +64,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+What things you need to install
 
 ```
 Java
