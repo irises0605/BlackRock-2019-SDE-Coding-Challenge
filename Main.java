@@ -17,7 +17,7 @@ public class Main {
     
 
 	public static class Asset {
-        /** the Asset class **/
+    	/** the Asset class **/
 		String name;
 		String type;
 		int shares;
@@ -36,7 +36,7 @@ public class Main {
         
 		
 		public double getMarketValue(){
-            /** method that gets the market value of the asset based on type **/
+        	/** method that gets the market value of the asset based on type **/
 			if (this.type.equals("STOCK")) {
 				return this.shares*this.price;
 			}
@@ -46,7 +46,7 @@ public class Main {
 		}
         
 		
-        //Getters
+		//Getters
 		public String getName(){
 			return this.name;
 		}
