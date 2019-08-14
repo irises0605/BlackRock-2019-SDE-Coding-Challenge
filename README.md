@@ -94,7 +94,7 @@ Give an example
 
 Please read [CONTRIBUTION.md](https://github.com/irises0605/Contribution) for details on our code of conduct, and the process for submitting pull requests to me.
 
-## Authors
+## Author(s)
 
 Iris Liu, Colby '22
 
