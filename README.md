@@ -43,7 +43,7 @@ You will receive a string in the following format Portfolio:Benchmark where Port
 
 * output format: TransactionType,Name,Shares. 
 
-For further clarification see the demonstration below. 
+For further clarification please see the demonstration section. 
 
 ### Assumptions
 
@@ -62,6 +62,7 @@ For further clarification see the demonstration below.
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
+
 ### Prerequisites
 
 What things you need to install
@@ -72,27 +73,66 @@ Java
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
+To run Main.java, go to your terminal and the folder/path where the file is located, and enter 
 
 ```
-Give an example
+javac Main.java
 ```
 
-### And coding style tests
 
-Explain what these tests test and why
+### Test 1
+
+After pressing Enter without any error message, enter
 
 ```
-Give an example
+java Main Vodafone,STOCK,10,50,0|Google,STOCK,15,50,0|Microsoft,BOND,15,100,0.05:Vodafone,STOCK,15,50,0|Google,STOCK,10,50,0|Microsoft,BOND,15,100,0.05
 ```
+
+Now you should have your output for Test 1 shown in the terminal. The correct output for the input above should be:
+
+```
+BUY,Vodafone,5
+SELL,Google,5
+```
+
+
+### Test 2
+
+After passing Test 1, enter
+
+```
+java Main Google,STOCK,10,50,0|Microsoft,STOCK,15,50,0|IBM,BOND,15,100,0.05:IBM,BOND,20,100,0.05|Google,STOCK,15,50,0|Microsoft,STOCK,10,50,0.05
+```
+
+Now you should have your output for Test 2 shouwn in the terminal. The correct output for the input above should be:
+
+```
+BUY,Google,5
+BUY,IBM,5
+SELL,Microsoft,5
+```
+
+
+### Test 3
+
+After passing Test 1, enter
+
+```
+java Main Vodafone,STOCK,10,50,0|Google,STOCK,15,50,0|Microsoft,BOND,15,100,0.05:Vodafone,STOCK,15,50,0|Google,STOCK,10,50,0|Microsoft,BOND,15,100,0.05
+```
+
+Now you should have your output for Test 2 shouwn in the terminal. The correct output for the input above should be:
+
+```
+SELL,Google,5
+BUY,Vodafone,5
+```
+
 
 ## Contributing
 
 Please read [CONTRIBUTION.md](https://github.com/irises0605/Contribution) for details on our code of conduct, and the process for submitting pull requests to me.
+
 
 ## Author(s)
 
