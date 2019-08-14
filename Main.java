@@ -4,6 +4,11 @@
  * Date: 06/15/2019
  **/
 
+pre {
+  -moz-tab-size: 4;
+  tab-size: 4;
+}
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
