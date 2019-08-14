@@ -88,12 +88,22 @@ After pressing Enter without any error message, enter
 java Main Vodafone,STOCK,10,50,0|Google,STOCK,15,50,0|Microsoft,BOND,15,100,0.05:Vodafone,STOCK,15,50,0|Google,STOCK,10,50,0|Microsoft,BOND,15,100,0.05
 ```
 
+*Input 1 means: 
+
+In the given portfolio, there are 10 shares of Vodafone stock, priced at 50 per share with no accrued interest, 15 shares of Google stock, priced at 50 per share with no accrued interest, and 15 shares of Microsoft bond, priced at 100 per share with 5% accrued interest;
+In the given benchmark, there are 15 shares of Vodafone stock, priced at 50 per share with no accrued interest, 10 shares of Google stock, priced at 50 per share with no accrued interest, and 15 shares of Microsoft bond, priced at 100 per share with 5% accrued interest.*
+
+
 Now you should have your output for Test 1 shown in the terminal. The correct output for the input above should be:
 
 ```
 BUY,Vodafone,5
 SELL,Google,5
 ```
+
+*Output 1 means: 
+
+To make the given portfolio match the given benchmark, buy 5 shares of Vodafone (stock priced at 50 per share with no accrued interest) and sell 5 shares of Google (stock priced at 50 per share with no accrued interest).* 
 
 
 ### Test 2
@@ -104,6 +114,12 @@ After passing Test 1, enter
 java Main Google,STOCK,10,50,0|Microsoft,STOCK,15,50,0|IBM,BOND,15,100,0.05:IBM,BOND,20,100,0.05|Google,STOCK,15,50,0|Microsoft,STOCK,10,50,0.05
 ```
 
+*Input 2 means: 
+
+In the given portfolio, there are 10 shares of Google stock, priced at 50 per share with no accrued interest, 15 shares of Microsoft bond, priced at 100 per share with 5% accrued interest, and 15 shares of IBM bond, priced at 100 per share with 5% accrued interest;
+In the given benchmark, there are 20 shares of IBM bond, priced at 100 per share with 5% accrued interest, 15 shares of Google stock, priced at 50 per share with no accrued interest, and 10 shares of Microsoft bond, priced at 100 per share with 5% accrued interest.*
+
+
 Now you should have your output for Test 2 shouwn in the terminal. The correct output for the input above should be:
 
 ```
@@ -112,21 +128,10 @@ BUY,IBM,5
 SELL,Microsoft,5
 ```
 
+*Output 2 means: 
 
-### Test 3
+To make the given portfolio match the given benchmark, buy 5 shares of Google (stock priced at 50 per share with no accrued interest), buy 5 shares of IBM (bond priced at 100 per share with 5% accrued interest), and sell 5 shares of Microsoft (priced at 50 per share with 5% accrued interest).*
 
-After passing Test 1, enter
-
-```
-java Main Vodafone,STOCK,10,50,0|Google,STOCK,15,50,0|Microsoft,BOND,15,100,0.05:Vodafone,STOCK,15,50,0|Google,STOCK,10,50,0|Microsoft,BOND,15,100,0.05
-```
-
-Now you should have your output for Test 2 shouwn in the terminal. The correct output for the input above should be:
-
-```
-SELL,Google,5
-BUY,Vodafone,5
-```
 
 
 ## Contributing
