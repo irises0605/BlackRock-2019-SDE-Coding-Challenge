@@ -1,6 +1,6 @@
 # Coding-Challenge-Portofolio-Benchmark-Matcher
 
-This coding challenge was for an Asset Management company's software engineering developer application. There're three coding challenges in total, two of which were very finance-related, but context was given. 
+This coding challenge was for an Asset Management company's software engineering developer application. There're three coding challenges in total, two of which were very finance-related, but context was given. However, I did not have instructions for the first two and only the third is available at this point.
 
 Note that:
 * It was an online coding chellenge, so all classes were under Main.java. 
