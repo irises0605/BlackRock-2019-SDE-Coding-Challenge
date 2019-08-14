@@ -89,7 +89,6 @@ java Main Vodafone,STOCK,10,50,0|Google,STOCK,15,50,0|Microsoft,BOND,15,100,0.05
 ```
 
 *Input 1 means: 
-
 In the given portfolio, there are 10 shares of Vodafone stock, priced at 50 per share with no accrued interest, 15 shares of Google stock, priced at 50 per share with no accrued interest, and 15 shares of Microsoft bond, priced at 100 per share with 5% accrued interest;
 In the given benchmark, there are 15 shares of Vodafone stock, priced at 50 per share with no accrued interest, 10 shares of Google stock, priced at 50 per share with no accrued interest, and 15 shares of Microsoft bond, priced at 100 per share with 5% accrued interest.*
 
@@ -102,7 +101,6 @@ SELL,Google,5
 ```
 
 *Output 1 means: 
-
 To make the given portfolio match the given benchmark, buy 5 shares of Vodafone (stock priced at 50 per share with no accrued interest) and sell 5 shares of Google (stock priced at 50 per share with no accrued interest).* 
 
 
@@ -115,7 +113,6 @@ java Main Google,STOCK,10,50,0|Microsoft,STOCK,15,50,0|IBM,BOND,15,100,0.05:IBM,
 ```
 
 *Input 2 means: 
-
 In the given portfolio, there are 10 shares of Google stock, priced at 50 per share with no accrued interest, 15 shares of Microsoft bond, priced at 100 per share with 5% accrued interest, and 15 shares of IBM bond, priced at 100 per share with 5% accrued interest;
 In the given benchmark, there are 20 shares of IBM bond, priced at 100 per share with 5% accrued interest, 15 shares of Google stock, priced at 50 per share with no accrued interest, and 10 shares of Microsoft bond, priced at 100 per share with 5% accrued interest.*
 
@@ -129,7 +126,6 @@ SELL,Microsoft,5
 ```
 
 *Output 2 means: 
-
 To make the given portfolio match the given benchmark, buy 5 shares of Google (stock priced at 50 per share with no accrued interest), buy 5 shares of IBM (bond priced at 100 per share with 5% accrued interest), and sell 5 shares of Microsoft (priced at 50 per share with 5% accrued interest).*
 
 
