@@ -1,6 +1,10 @@
 # Coding-Challenge-Portofolio-Benchmark-Matcher
 
-This coding challenge was for an Asset Management company's software engineering developer application. There're three coding challenges in total, two of which were very finance-related, but context was given. Note that this was an online coding chellenge, so all classes were under Main.java. 
+This coding challenge was for an Asset Management company's software engineering developer application. There're three coding challenges in total, two of which were very finance-related, but context was given. 
+
+Note that:
+* It was an online coding chellenge, so all classes were under Main.java. 
+* Java OOP was the main focus of this challenge.
 
 
 ## Coding Challenge Instruction
@@ -31,15 +35,15 @@ An asset’s market value percentage can be calculated by dividing the market va
 (10 * 5) / ( (10 * 5) + (15 * 5) + (15 * (5 + 0.05) * 0.01) )
 ```
 
-Inputs and Outputs
+### Inputs and Outputs
 
 You will receive a string in the following format Portfolio:Benchmark where Portfolio & Benchmark each are in the same format.
 
 Here is the format: Name,AssetType,Shares,Price,AccruedInterest where each asset within Portfolio or Benchmark is separated by '|' symbol.
 
-The output for the transactions is TransactionType,Name,Shares
+The output for the transactions is TransactionType,Name,Shares. 
 
-Assumptions
+### Assumptions
 
 Shares & Price are positive decimals
 
@@ -83,29 +87,13 @@ Explain what these tests test and why
 Give an example
 ```
 
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+Please read [CONTRIBUTION.md](https://github.com/irises0605/Contribution) for details on our code of conduct, and the process for submitting pull requests to me.
 
 ## Authors
 
 Iris Liu, Colby '22
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 
 ## Acknowledgments
