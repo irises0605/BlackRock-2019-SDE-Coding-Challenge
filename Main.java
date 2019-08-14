@@ -50,20 +50,18 @@ public class Main {
 		public String getName(){
 			return this.name;
 		}
-      
-        public String getType(){
-            return this.type;
-        }
+		
+		public String getType(){
+			return this.type;
+		}
 		
 		public double getPrice(){
 			return this.price;
 		}
-      
-        public double getAccruedInterest(){
-            return this.accruedInterest;
-        }
-      
-        
+		
+		public double getAccruedInterest(){
+			return this.accruedInterest;
+		}
 	}// End of Asset class
     
     
