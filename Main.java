@@ -1,6 +1,6 @@
 /**
  * Challenge 3
- * Author: Bingya Liu
+ * Author: Iris Liu
  * Date: 06/15/2019
  **/
 
